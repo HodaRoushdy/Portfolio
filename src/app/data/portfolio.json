@@ -1,0 +1,35 @@
+{
+    "portfolio":[
+        {
+            "cover":"./images/the cappa.png",
+            "title":"the cappa",
+            "description":"responsive UI design using html , css ,bootstrap and javascript",
+            "url":"https://the-cappa-eight.vercel.app/"
+        },{
+        "cover":"./images/tic-tac-toe.png",
+        "title":"tic tac toe",
+        "description":"tic-tac-toe game using Nextjs",
+        "url":"https://tic-tac-toe-gilt-three.vercel.app/"
+    } ,{
+        "cover":"./images/angular-task.png",
+        "title":"Angular task",
+        "description":"frontend website using Angular and figma",
+        "url":"https://angular-task-olive.vercel.app/"
+    },{
+        "cover":"./images/fokir.png",
+        "title":"fokir",
+        "description":"responsive UI design using html , css ,bootstrap and javascript",
+        "url":"https://fokir-ten.vercel.app/"
+    },{
+        "cover":"./images/wedding-company.png",
+        "title":"wedding-company",
+        "description":"responsive UI design using html , css ,bootstrap and javascript",
+        "url":"https://wedding-company.vercel.app/"
+    },{
+        "cover":"./images/bakery.png",
+        "title":"bakery",
+        "description":"responsive UI design using html , css ,bootstrap and javascript",
+        "url":"https://bakery-jade.vercel.app/"
+    }
+    ]
+}

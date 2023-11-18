@@ -1,0 +1,19 @@
+.iconaya{
+    font-size: 50px;
+    color: #fff;
+}
+.contactPart{
+    position: absolute;
+    bottom: 0;
+}
+.navbar{
+    height: 100vh;
+    background-color: #625750;
+    position: fixed;
+}
+.toggleBtn{
+    background-color: #625750;
+    height: 100vh;
+    display: flex;
+    border: 1px solid yellow;
+}

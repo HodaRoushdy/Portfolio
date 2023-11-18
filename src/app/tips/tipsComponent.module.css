@@ -1,0 +1,82 @@
+.fullScreen{
+    height: 100vh;
+    width: 100%;
+
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80vh;
+    justify-content: center;
+}
+.imaga img:hover{
+    transform: scale(1.2)
+}
+.imaga img{
+    transition: transform 0.5s;
+}
+.images{
+    display:flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+}
+.content h1{
+    font-family: font-file-82132;
+    display: block;
+    color: #062F45;
+    font-weight: 400;
+    margin-bottom: 40px;
+    font-size: 54px !important;
+}
+.fullScreen::before{
+    content: "<html>";
+    font-family: 'Edu TAS Beginner';
+    color: #ffd700;
+    font-size: 24px;
+    margin-top: -40px;
+    left: 15px;
+    opacity: 0.3;
+}
+.content::after{
+    content: "</html>";
+    font-family: 'Edu TAS Beginner';
+    color: #ffd700;
+    font-size: 24px;
+    margin-top:18px;
+    margin-left: 20px;
+    animation: fadeIn 1s 1.7s backwards;
+    opacity: 0.3;
+} 
+.fullScreen::after{
+    content: "</body>";
+    font-family: 'Edu TAS Beginner';
+    color: #ffd700;
+    font-size: 24px;
+    margin-top:18px;
+    margin-left: 20px;
+    animation: fadeIn 1s 1.7s backwards;
+    opacity: 0.3;
+} 
+.content h1::before{
+    content: "<h1>";
+    font-family: 'Edu TAS Beginner';
+    color: #ffd700;
+    font-size: 24px;
+    margin-top: -40px;
+    left: 15px;
+    opacity: 0.3;
+}
+
+.content h1::after{
+    content: "</h1>" ;
+    font-family: 'Edu TAS Beginner';
+    color: #ffd700;
+    font-size: 24px;
+    position: absolute;
+    margin-top:18px;
+    margin-left: 20px;
+    animation: fadeIn 1s 1.7s backwards;
+    opacity: 0.3;
+} 

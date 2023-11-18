@@ -1,0 +1,160 @@
+.fullScreen{
+display: flex;
+}
+.fullScreen::before{
+    content: "<body>";
+    font-family: 'Edu TAS Beginner';
+    color: #ffd700;
+    font-size: 24px;
+    margin-top: -40px;
+    left: 15px;
+    opacity: 0.3;
+}
+.fullScreen::after{
+    content: "</html>";
+    font-family: 'Edu TAS Beginner';
+    color: #ffd700;
+    font-size: 24px;
+    margin-top:18px;
+    margin-left: 20px;
+    animation: fadeIn 1s 1.7s backwards;
+    opacity: 0.3;
+} 
+.header::before{
+    content: "<h1>";
+    font-family: 'Edu TAS Beginner';
+    color: #ffd700;
+    font-size: 24px;
+    margin-top: -40px;
+    left: 15px;
+    opacity: 0.3;
+}
+.content::after{
+    content: "</body>" ;
+    font-family: 'Edu TAS Beginner';
+    color: #ffd700;
+    font-size: 24px;
+    margin-top:18px;
+    margin-left: 20px;
+    animation: fadeIn 1s 1.7s backwards;
+    opacity: 0.3;
+}
+
+.header h1::after{
+    content: "</h1>" ;
+    font-family: 'Edu TAS Beginner';
+    color: #ffd700;
+    font-size: 24px;
+    position: absolute;
+    margin-top:18px;
+    margin-left: 20px;
+    animation: fadeIn 1s 1.7s backwards;
+    opacity: 0.3;
+} 
+.header{
+    display: flex;
+    gap: 5px;
+    margin: auto;
+    vertical-align: middle;
+}
+.nameAndEmail{
+    justify-content:center;
+    align-items:center;
+}
+/* .form input,.form textarea , .form button{
+    opacity: 0;
+    animation: fadeInUp 2s 2s;
+} */
+
+.wrapper h1{
+    font-family: font-file-82132;
+    color: #062F45;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 40px;
+    left: -10px;
+    font-size: 54px !important;
+    line-height: 45px;
+}
+.text p{
+    line-height: 18px;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 14px !important;
+    margin-block-start: 1em;
+    margin-block-end: 3em;
+}
+.form input , .form textarea{
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: unset;
+    border: 1px solid white;
+    border-radius: .4rem;
+    box-shadow: .1rem .1rem saddlebrown ;
+    color: #fff;
+}
+.form input::placeholder,.form textarea::placeholder{
+    color: white;
+}
+.form textarea{
+    min-height: 10rem;
+}
+.form button{
+    border-radius: .5rem;
+    border: .1rem solid white;
+    background-color: transparent;
+    padding: .4rem .8rem;
+    font-size: 11px;
+    letter-spacing: 2px;
+    font-family: "Open Sans", sans-serif;
+    float: right;
+    text-align: center;
+    margin-right: 10px;
+}
+.form button:hover{
+    background-color: wheat;
+}
+.form button:hover a{
+    color: black;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.wrapper{
+    cursor: pointer;
+    display: flex;
+    position: relative;
+}
+.letter{
+    position: relative;
+    text-shadow: -6px 2px 7px black;
+    z-index: 1;
+    top:0;
+    color: #062F45;
+}
+.shadow{
+    color: transparent;
+    position: absolute;
+    transition: 0.5s;
+    text-shadow: none;
+    z-index: 0;
+}
+.wrapper:hover .shadow{
+    text-shadow: -21px 2px 7px rgba(0, 0, 0, 0.30);
+    transition: 0.5s ease-in-out;
+
+}
+.wrapper:hover .letter{
+    color: yellow;
+    transform: translateY(-35px);
+    transition: 0.5s ease-in-out;
+
+}
+.word{
+    display: flex;
+    letter-spacing: 3px;
+    padding: 0px 5px;
+
+}
