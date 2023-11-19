@@ -6,17 +6,13 @@ import{FaNode} from 'react-icons/fa'
 import {ImCss3} from 'react-icons/im'
 import {SiMongodb} from 'react-icons/si'
 import styles from './aboutComponent.module.css'
-import { Audio } from 'react-loader-spinner'
+
 
 export default function About(){
     return(
-<>
-<div className={`${styles.fullScreen} d-flex col-md-12`}>
-                <style>
-@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Edu+TAS+Beginner&family=Gilda+Display&family=Playpen+Sans:wght@500&display=swap');
-</style>
-<div className='d-flex'>
-<div className='col-md-6 col-sm-12'>
+<div className={`${styles.fullScreen}`}>
+<div className='row'>
+    <div className='col-lg-6 col-md-6 col-sm-12'>
             <div className={`${styles.text} col-md-10`}>
             <div className={styles.sentence}>
     <div className={styles.word}>
@@ -70,7 +66,7 @@ export default function About(){
             </div>
         </div>
 
-        <div className={`${styles.forAnimate} col-md-6`}>
+    <div className={`${styles.forAnimate} col-lg-6 col-md-6 col-sm-12`}>
           <div className= {`${styles.stageCubeCont}`}>
             <div className={`${styles.cubespinner}`}>
               <div className={`${styles.face1}`}>
@@ -98,14 +94,6 @@ export default function About(){
 </div>
 
         </div>
-        <Audio
-  height="80"
-  width="80"
-  color="green"
-  ariaLabel="loading"
-/>
-
-</>
       
 
 

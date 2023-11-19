@@ -1,4 +1,3 @@
-import emailjs from '@emailjs/browser';
 import styles from './contact.module.css'
 export default function Contact (){
 return (
@@ -6,56 +5,50 @@ return (
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Edu+TAS+Beginner&family=Gilda+Display&family=Playpen+Sans:wght@500&display=swap');
 </style>
-{/* <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <script type="text/javascript">
-        (function() {
-            emailjs.init('nJMrjzdJpzGR6FCMr')
-        })();
-    </script> */}
     <div className={`${styles.content} col-md-6 col-sm-12 `}>
         <div className='col-md-9 offset-1'>
         <div className="col-md-10 m-auto p-4">
             <div className={styles.text}>
-                <div className={styles.header}>
+                <div className={styles.sentence}>
                 <div className={styles.word}>
                 <div className={styles.wrapper}>
-                    <div className={styles.letter}>C</div>
-                    <div className={styles.shadow}>C</div>
+                    <h1 className={styles.letter}>C</h1>
+                    <h1 className={styles.shadow}>C</h1>
                 </div>
                 <div className={styles.wrapper}>
-                    <div className={styles.letter}>o</div>
-                    <div className={styles.shadow}>o</div>
+                    <h1 className={styles.letter}>o</h1>
+                    <h1 className={styles.shadow}>o</h1>
                 </div>
                 <div className={styles.wrapper}>
-                    <div className={styles.letter}>n</div>
-                    <div className={styles.shadow}>n</div>
+                    <h1 className={styles.letter}>n</h1>
+                    <h1 className={styles.shadow}>n</h1>
                 </div>
                 <div className={styles.wrapper}>
-                    <div className={styles.letter}>t</div>
-                    <div className={styles.shadow}>t</div>
+                    <h1 className={styles.letter}>t</h1>
+                    <h1 className={styles.shadow}>t</h1>
                 </div>
                 <div className={styles.wrapper}>
-                    <div className={styles.letter}>a</div>
-                    <div className={styles.shadow}>a</div>
+                    <h1 className={styles.letter}>a</h1>
+                    <h1 className={styles.shadow}>a</h1>
                 </div>
                 <div className={styles.wrapper}>
-                    <div className={styles.letter}>c</div>
-                    <div className={styles.shadow}>c</div>
+                    <h1 className={styles.letter}>c</h1>
+                    <h1 className={styles.shadow}>c</h1>
                 </div>
                 <div className={styles.wrapper}>
-                    <div className={styles.letter}>t</div>
-                    <div className={styles.shadow}>t</div>
+                    <h1 className={styles.letter}>t</h1>
+                    <h1 className={styles.shadow}>t</h1>
                 </div>
             </div>
 
             <div className={styles.word}>
             <div className={styles.wrapper}>
-                    <div className={styles.letter}>M</div>
-                    <div className={styles.shadow}>M</div>
+                    <h1 className={styles.letter}>M</h1>
+                    <h1 className={styles.shadow}>M</h1>
                 </div>
                 <div className={styles.wrapper}>
-                    <div className={styles.letter}>e</div>
-                    <div className={styles.shadow}>e</div>
+                    <h1 className={styles.letter}>e</h1>
+                    <h1 className={styles.shadow}>e</h1>
                 </div>
             </div>
                 </div>

@@ -1,3 +1,5 @@
+
+
 .fullScreen{
 display: flex;
 }
@@ -65,23 +67,12 @@ display: flex;
     opacity: 0;
     animation: fadeInUp 2s 2s;
 } */
-
-.wrapper h1{
-    font-family: font-file-82132;
-    color: #062F45;
-    font-weight: 400;
-    margin-top: 0;
-    margin-bottom: 40px;
-    left: -10px;
-    font-size: 54px !important;
-    line-height: 45px;
-}
 .text p{
     line-height: 18px;
     color: #fff;
     font-family: "Open Sans", sans-serif;
     font-weight: 300;
-    font-size: 14px !important;
+    font-size: 18px !important;
     margin-block-start: 1em;
     margin-block-end: 3em;
 }
@@ -122,6 +113,21 @@ display: flex;
     text-decoration: none;
     color: white;
 }
+
+.wrapper h1{
+    font-family: font-file-82132;
+    color: #062F45;
+    font-weight: 400;
+    margin-top: 0;
+    left: -10px;
+    font-size: 54px !important;
+    line-height: 45px;
+}
+.word{
+    display: flex;
+    letter-spacing: 3px;
+    padding: 0px 5px;
+}
 .wrapper{
     cursor: pointer;
     display: flex;
@@ -130,9 +136,8 @@ display: flex;
 .letter{
     position: relative;
     text-shadow: -6px 2px 7px black;
-    z-index: 1;
+    z-index: 111;
     top:0;
-    color: #062F45;
 }
 .shadow{
     color: transparent;
@@ -144,17 +149,13 @@ display: flex;
 .wrapper:hover .shadow{
     text-shadow: -21px 2px 7px rgba(0, 0, 0, 0.30);
     transition: 0.5s ease-in-out;
-
 }
 .wrapper:hover .letter{
     color: yellow;
     transform: translateY(-35px);
     transition: 0.5s ease-in-out;
-
 }
-.word{
+.sentence{
     display: flex;
-    letter-spacing: 3px;
-    padding: 0px 5px;
-
+    padding-bottom: 40px;
 }

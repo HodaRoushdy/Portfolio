@@ -5,15 +5,8 @@
     max-width: fit-content;
     line-height: 20px;
     font-size: 14px !important;
-}
-.text h1{
-    font-family: font-file-82132;
-    color: #062F45;
-    font-weight: 400;
-    position: relative;
-    left: -10px;
-    font-size: 54px !important;
-    padding-bottom: 10px;
+    animation-duration: 1s;
+    animation-name: slidein;
 }
 .text{
     padding: 5rem 5rem;
@@ -29,7 +22,6 @@
 .fullScreen{
     height: 100%;
 }
-
 .fullScreen::before{
     content: "<body>";
     font-family: 'Edu TAS Beginner';
@@ -49,7 +41,7 @@
     animation: fadeIn 1s 1.7s backwards;
     opacity: 0.3;
 } 
-.text::before{
+.sentence::before{
     content: "<h1>";
     font-family: 'Edu TAS Beginner';
     color: #ffd700;
@@ -58,8 +50,7 @@
     left: 15px;
     opacity: 0.3;
 }
-
-.text h1::after{
+.sentence::after{
     content: "</h1>" ;
     font-family: 'Edu TAS Beginner';
     color: #ffd700;
@@ -70,17 +61,30 @@
     animation: fadeIn 1s 1.7s backwards;
     opacity: 0.3;
 } 
-
+.wrapper h1{
+    font-family: font-file-82132;
+    color: #062F45;
+    font-weight: 400;
+    margin-top: 0;
+    left: -10px;
+    font-size: 54px !important;
+    line-height: 45px;
+}
+.word{
+    display: flex;
+    letter-spacing: 3px;
+    padding: 0px 5px;
+}
 .wrapper{
     cursor: pointer;
     display: flex;
+    position: relative;
 }
 .letter{
     position: relative;
     text-shadow: -6px 2px 7px black;
-    z-index: 1;
-    top:0
-
+    z-index: 111;
+    top:0;
 }
 .shadow{
     color: transparent;
@@ -92,18 +96,23 @@
 .wrapper:hover .shadow{
     text-shadow: -21px 2px 7px rgba(0, 0, 0, 0.30);
     transition: 0.5s ease-in-out;
-
 }
 .wrapper:hover .letter{
     color: yellow;
     transform: translateY(-35px);
     transition: 0.5s ease-in-out;
-
 }
-.wrapper h1{
-    font-family: 'Barlow', sans-serif ,'Gilda Display','Playpen Sans',cursive;
-    font-weight: 400;
-    color: #fff;
-    font-size: 53px;
-    line-height: 50px;
+.sentence{
+    padding-bottom: 40px;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
 }

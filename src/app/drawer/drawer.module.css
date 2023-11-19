@@ -2,14 +2,14 @@
     font-size: 50px;
     color: #fff;
 }
-.contactPart{
-    position: absolute;
-    bottom: 0;
-}
+
 .navbar{
     height: 100vh;
     background-color: #625750;
     position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .toggleBtn{
     background-color: #625750;

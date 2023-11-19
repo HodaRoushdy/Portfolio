@@ -1,25 +1,11 @@
 import 'animate.css';
-import Image from 'next/image';
 import Link from 'next/link';
-import { AiFillLinkedin } from 'react-icons/ai';
-import { BiMessageDetail } from 'react-icons/bi';
-import { FaGithub } from 'react-icons/fa6';
-import { HiOutlineEye, HiOutlineHome } from "react-icons/hi2";
-import { IoPersonOutline, IoSettingsOutline } from 'react-icons/io5';
-import { MdOutlineTipsAndUpdates } from 'react-icons/md';
 import styles from './homeComponent.module.css';
 export default function HomeContent (){
 return(
-<div className={styles.fullScreen} >
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Edu+TAS+Beginner&family=Gilda+Display&family=Playpen+Sans:wght@500&display=swap');
-</style>
+<div className={`${styles.fullScreen} row`} >
 
-<div className={styles.homeContainer}>
-
-<div className={`${styles.leftPart} col-md-6 col-sm-12`}>
-
-<div className={styles.centerText}>
+<div className={`${styles.centerText} col-md-6 m-auto col-sm-12`}>
     <div className={styles.word}>
     <div className={styles.wrapper}>
         <h1 className={styles.shadow}>H</h1>
@@ -162,11 +148,6 @@ return(
 <br />
     <h2>Full stack developer/MERN developer/freelancer</h2> 
     <button className={styles.btn}><Link href='/contact'>CONTACT ME</Link></button>
-</div>
-</div>
-
-<div className='col-md-6'>
-</div>
 </div>
 
 
