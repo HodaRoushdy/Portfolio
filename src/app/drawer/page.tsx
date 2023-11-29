@@ -20,7 +20,8 @@ import { MdOutlineTipsAndUpdates } from 'react-icons/md';
 import Logo from '../../../assets/logo.svg'
 import styles from './drawer.module.css';
 type Anchor = 'left';
-export default function drawer (){
+
+export default function AppDrawer (){
     const [state, setState] = React.useState({left: false});
     const toggleDrawer =
     (anchor: Anchor, open: boolean) =>
@@ -39,12 +40,13 @@ export default function drawer (){
     const list = (anchor: Anchor) => (
     <Box className={styles.navbar} role="presentation" onClick={toggleDrawer(anchor, false)} onKeyDown={toggleDrawer(anchor, false)}>
         <List className='d-flex flex-column align-items-center' >
-            {[<Image src={Logo.src} alt={'logo'} width={'50'} height={'100'} />,<Link href="#"><HiOutlineHome style={{ color: 'black' ,width:'100%'}} /></Link>,
-                <Link href="/about"><IoPersonOutline style={{color:'black', width:'100%'}}/></Link>,
-                <Link href="/skills"><IoSettingsOutline style={{color:'black',width:'100%'}}/></Link>,
-                <Link href="/tips"><MdOutlineTipsAndUpdates style={{color:'black',width:'100%'}} /></Link>,
-                <Link href="/myWork"><HiOutlineEye style={{color:'black',width:'100%'}}/></Link>,
-                <Link href="contact"><BiMessageDetail style={{color:'black',width:'100%'}}/></Link>
+            {[<Image key={0} src={Logo.src} alt={'logo'} width={'50'} height={'100'} />,
+                <Link key={1} href="#"><HiOutlineHome style={{ color: 'black' ,width:'100%'}} /></Link>,
+                <Link  key={2} href="/about"><IoPersonOutline style={{color:'black', width:'100%'}}/></Link>,
+                <Link key={3} href="/skills"><IoSettingsOutline style={{color:'black',width:'100%'}}/></Link>,
+                <Link key={4} href="/tips"><MdOutlineTipsAndUpdates style={{color:'black',width:'100%'}} /></Link>,
+                <Link key={5} href="/myWork"><HiOutlineEye style={{color:'black',width:'100%'}}/></Link>,
+                <Link key={6} href="contact"><BiMessageDetail style={{color:'black',width:'100%'}}/></Link>
             ].map((text, index) => (
             <ListItem key={index} disablePadding>
                 <ListItemButton >
@@ -55,9 +57,9 @@ export default function drawer (){
         </List>
         <Divider />
         <List>
-        {[<a href="https://www.linkedin.com/in/huda-roushdy-87362a228/" ><AiFillLinkedin style={{color:'black'}} className='my-3'/></a>,
-        <a href="https://github.com/HodaRoushdy"><FaGithub style={{color:'black'}} className='my-3'/></a>,
-        <a href='/Huda-Roushdy.pdf' target="_blank" download="Huda-Roushdy"><FaDownload style={{color:'black'}} /></a>].map((text, index) => (
+        {[<a key={0} href="https://www.linkedin.com/in/huda-roushdy-87362a228/" ><AiFillLinkedin style={{color:'black'}} className='my-3'/></a>,
+        <a key={1} href="https://github.com/HodaRoushdy"><FaGithub style={{color:'black'}} className='my-3'/></a>,
+        <a key={2} href='/Huda-Roushdy.pdf' target="_blank" download="Huda-Roushdy"><FaDownload style={{color:'black'}} /></a>].map((text, index) => (
         <ListItem key={index} disablePadding>
             <ListItemButton>
                 <ListItemText primary={text} />

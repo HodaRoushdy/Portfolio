@@ -2,9 +2,6 @@ import styles from './contact.module.css'
 export default function Contact (){
 return (
 <div className={styles.fullScreen}>
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Edu+TAS+Beginner&family=Gilda+Display&family=Playpen+Sans:wght@500&display=swap');
-</style>
     <div className={`${styles.content} col-md-6 col-sm-12 `}>
         <div className='col-md-9 offset-1'>
         <div className="col-md-10 m-auto p-4">

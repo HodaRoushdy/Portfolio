@@ -50,12 +50,12 @@ export default function About(){
 
     </div>
             <p>
-            I’m very ambitious full-stack developer looking for a role in
+            I&rsquo;m very ambitious full-stack developer looking for a role in
             established IT company with the opportunity to work with the latest
             technologies on challenging and diverse projects.
           </p>
           <p>
-            I'm quietly confident and throughout my carrer, i have gained valuable experience ,
+            I&rsquo;m quietly confident and throughout my carrer, i have gained valuable experience ,
             I adapt quickly to challenges ,I believe in maintaining a positive and collaborative work ethic and 
             I’m confident in my ability to contribute to the success of a company, tram or organisation
           </p>

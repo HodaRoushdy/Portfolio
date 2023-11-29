@@ -22,38 +22,38 @@ const renderPortfolio =(data:portfolioData[])=>{
         <div className={`${styles.allProjects} row g-3`}>
                         <div className={`col-md-4 col-sm-6`}>
                             <div className={`${styles.project} `}>
-                            <Image src={CappaSrc.src} alt={data[0].title} width={'100%'} height={'100%'}/>
-                            <ProjectCap title={data[0].title} description={data[0].description} url={data[0].url}/>
+                            <Image src={CappaSrc.src} alt={data[0]?.title} width={'100%'} height={'100%'}/>
+                            <ProjectCap title={data[0]?.title as string} description={data[0]?.description  as string} url={data[0]?.url  as string}/>
                             </div>
                     </div>
                     <div className={`col-md-4 col-sm-6`}>
                             <div className={`${styles.project} `}>
-                            <Image src={WeddingSrc.src} alt={data[4].title} width={'100%'} height={'100%'}/>
-                            <ProjectCap title={data[4].title} description={data[4].description} url={data[4].url}/>
+                            <Image src={WeddingSrc.src} alt={data[4]?.title} width={'100%'} height={'100%'}/>
+                            <ProjectCap title={data[4]?.title  as string} description={data[4]?.description  as string} url={data[4]?.url as string}/>
                             </div>
                     </div>
                     <div className={`col-md-4 col-sm-6`}>
                             <div className={`${styles.project} `}>
-                            <Image src={BakerySrc.src} alt={data[5].title} width={'100%'} height={'100%'}/>
-                            <ProjectCap title={data[5].title} description={data[5].description} url={data[5].url}/>
+                            <Image src={BakerySrc.src} alt={data[5]?.title  as string} width={'100%'} height={'100%'}/>
+                            <ProjectCap title={data[5]?.title  as string} description={data[5]?.description  as string} url={data[5]?.url  as string}/>
                             </div>
                     </div>
                     <div className={`col-md-4 col-sm-6`}>
                             <div className={`${styles.project} `}>
-                            <Image src={TicSrc.src} alt={data[1].title} width={'100%'} height={'100%'}/>
-                            <ProjectCap title={data[1].title} description={data[1].description} url={data[1].url}/>
+                            <Image src={TicSrc.src} alt={data[1]?.title  as string} width={'100%'} height={'100%'}/>
+                            <ProjectCap title={data[1]?.title  as string} description={data[1]?.description  as string} url={data[1]?.url  as string}/>
                             </div>
                     </div>
                     <div className={`col-md-4 col-sm-6`}>
                             <div className={`${styles.project} `}>
-                            <Image src={FokerSrc.src} alt={data[3].title} width={'100%'} height={'100%'}/>
-                            <ProjectCap title={data[3].title} description={data[3].description} url={data[3].url}/>
+                            <Image src={FokerSrc.src} alt={data[3]?.title  as string} width={'100%'} height={'100%'}/>
+                            <ProjectCap title={data[3]?.title  as string} description={data[3]?.description  as string} url={data[3]?.url  as string}/>
                             </div>
                     </div>
                     <div className={`col-md-4 col-sm-6`}>
                             <div className={`${styles.project} `}>
-                            <Image src={AngularSrc.src} alt={data[2].title} width={'100%'} height={'100%'}/>
-                            <ProjectCap title={data[2].title} description={data[2].description} url={data[2].url}/>
+                            <Image src={AngularSrc.src} alt={data[2]?.title  as string} width={'100%'} height={'100%'}/>
+                            <ProjectCap title={data[2]?.title  as string} description={data[2]?.description  as string} url={data[2]?.url  as string}/>
                             </div>
                     </div>
                     
@@ -64,9 +64,6 @@ const renderPortfolio =(data:portfolioData[])=>{
 }
     return (
         <div className={`${styles.fullScreen} m-auto py-5`}>
-            <style>
-@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Edu+TAS+Beginner&family=Gilda+Display&family=Playpen+Sans:wght@500&display=swap');
-</style>
     <div className={`${styles.title} pb-4`}>
 
         <div className={styles.sentence}>

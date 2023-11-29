@@ -1,10 +1,10 @@
 import 'animate.css';
 import Link from 'next/link';
 import styles from './homeComponent.module.css';
+
 export default function HomeContent (){
 return(
 <div className={`${styles.fullScreen} row`} >
-
 <div className={`${styles.centerText} col-md-6 m-auto col-sm-12`}>
     <div className={styles.word}>
     <div className={styles.wrapper}>
@@ -20,7 +20,6 @@ return(
         <h1 className={styles.letter}>,</h1>
     </div>
     </div>
-
     <div className={styles.sentence}>
     <div className={styles.word}>
     <div className={styles.wrapper}>
@@ -28,8 +27,8 @@ return(
         <h1 className={styles.letter}>I</h1>
     </div>
     <div className={styles.wrapper}>
-        <h1 className={styles.shadow}>'</h1>
-        <h1 className={styles.letter}>'</h1>
+        <h1 className={styles.shadow}>&rsquo;</h1>
+        <h1 className={styles.letter}>&rsquo;</h1>
     </div>
     <div className={styles.wrapper}>
         <h1 className={styles.shadow}>m</h1>
@@ -150,11 +149,6 @@ return(
     <button className={styles.btn}><Link href='/contact'>CONTACT ME</Link></button>
 </div>
 
-
-
-<script src="https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.production.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/react-bootstrap@next/dist/react-bootstrap.min.js"></script>
 <script>var Alert = ReactBootstrap.Alert;</script>
 
 </div>

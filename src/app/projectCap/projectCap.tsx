@@ -1,5 +1,4 @@
 import styles from '../myWork/myWork.module.css'
-import projectData from '../data/portfolio.json'
 interface Props {
 title:string,
 description:string,
