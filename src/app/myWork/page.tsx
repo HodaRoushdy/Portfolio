@@ -1,6 +1,6 @@
 'use client'
 import Portfolio from '../data/portfolio.json';
-import ProjectCap from '../projectCap/projectCap';
+import ProjectCap from '../projectCaption/projectCap';
 import styles from './myWork.module.css';
 import CappaSrc from '../data/images/the cappa.png'
 import BakerySrc from '../data/images/bakery.png'
