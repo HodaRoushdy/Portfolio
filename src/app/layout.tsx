@@ -2,7 +2,6 @@ import 'animate.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Inter } from 'next/font/google';
 import React from 'react';
-import { Helmet } from "react-helmet";
 import AppDrawer from './drawer/page';
 import './globals.css';
 import styles from './page.module.css';
@@ -27,11 +26,9 @@ export default function RootLayout({
       <AppDrawer/>
       </div>
       {children}
-      <Helmet>
       <script async src="https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js"></script>
       <script async src="https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.production.min.js"></script>
       <script async src="https://cdn.jsdelivr.net/npm/react-bootstrap@next/dist/react-bootstrap.min.js"></script> 
-      </Helmet>
       </body>
     </html>
   )
