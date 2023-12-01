@@ -8,6 +8,10 @@ import TicSrc from '../data/images/tic-tac-toe.png'
 import FokerSrc from '../data/images/fokir.png'
 import WeddingSrc from '../data/images/wedding-company.png'
 import AngularSrc from '../data/images/angular-task.png'
+import TodoListSrc from '../data/images/Todo-List.png'
+import MonkeyPoxSrc from '../data/images/monkey-pox.png'
+
+
 import { Image } from 'react-bootstrap';
 type portfolioData ={
     cover:string,
@@ -54,6 +58,18 @@ const renderPortfolio =(data:portfolioData[])=>{
                             <div className={`${styles.project} `}>
                             <Image src={AngularSrc.src} alt={data[2]?.title  as string} width={'100%'} height={'100%'}/>
                             <ProjectCap title={data[2]?.title  as string} description={data[2]?.description  as string} url={data[2]?.url  as string}/>
+                            </div>
+                    </div>
+                    <div className={`col-md-4 col-sm-6`}>
+                            <div className={`${styles.project} `}>
+                            <Image src={MonkeyPoxSrc.src} alt={data[6]?.title  as string} width={'100%'} height={'100%'}/>
+                            <ProjectCap title={data[6]?.title  as string} description={data[6]?.description  as string} url={data[6]?.url  as string}/>
+                            </div>
+                    </div>
+                    <div className={`col-md-4 col-sm-6`}>
+                            <div className={`${styles.project} `}>
+                            <Image src={TodoListSrc.src} alt={data[7]?.title  as string} width={'100%'} height={'100%'}/>
+                            <ProjectCap title={data[7]?.title  as string} description={data[7]?.description  as string} url={data[7]?.url  as string}/>
                             </div>
                     </div>
                     

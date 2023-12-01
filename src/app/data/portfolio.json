@@ -12,7 +12,7 @@
         "url":"https://tic-tac-toe-gilt-three.vercel.app/"
     } ,{
         "cover":"../data/images/the cappa.png",
-        "title":"Angular task",
+        "title":"Dashboard",
         "description":"frontend website using Angular and figma",
         "url":"https://angular-task-olive.vercel.app/"
     },{
@@ -30,6 +30,16 @@
         "title":"bakery",
         "description":"responsive UI design using html , css ,bootstrap and javascript",
         "url":"https://bakery-jade.vercel.app/"
+    },{
+        "cover":"../data/images/monkey-pox.png",
+        "title":"monkey Pox detector",
+        "description":"reactJs application to detect monkey pox disease",
+        "url":"https://monkey-pox-detector.vercel.app/"
+    },{
+        "cover":"../data/images/Todo-List.png",
+        "title":"todoList",
+        "description":"todo list application using reactJs",
+        "url":"https://todo-list-react-dun-sigma.vercel.app/"
     }
     ]
 }

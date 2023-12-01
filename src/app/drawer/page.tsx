@@ -41,12 +41,12 @@ export default function AppDrawer (){
     <Box className={styles.navbar} role="presentation" onClick={toggleDrawer(anchor, false)} onKeyDown={toggleDrawer(anchor, false)}>
         <List className='d-flex flex-column align-items-center' >
             {[<Image key={0} src={Logo.src} alt={'logo'} width={'50'} height={'100'} />,
-                <Link key={1} href="#"><HiOutlineHome style={{ color: 'black' ,width:'100%'}} /></Link>,
+                <Link key={1} href="/"><HiOutlineHome style={{ color: 'black' ,width:'100%'}} /></Link>,
                 <Link  key={2} href="/about"><IoPersonOutline style={{color:'black', width:'100%'}}/></Link>,
                 <Link key={3} href="/skills"><IoSettingsOutline style={{color:'black',width:'100%'}}/></Link>,
                 <Link key={4} href="/tips"><MdOutlineTipsAndUpdates style={{color:'black',width:'100%'}} /></Link>,
                 <Link key={5} href="/myWork"><HiOutlineEye style={{color:'black',width:'100%'}}/></Link>,
-                <Link key={6} href="contact"><BiMessageDetail style={{color:'black',width:'100%'}}/></Link>
+                <Link key={6} href="/contact"><BiMessageDetail style={{color:'black',width:'100%'}}/></Link>
             ].map((text, index) => (
             <ListItem key={index} disablePadding>
                 <ListItemButton >
@@ -59,7 +59,7 @@ export default function AppDrawer (){
         <List>
         {[<a key={0} href="https://www.linkedin.com/in/huda-roushdy-87362a228/" ><AiFillLinkedin style={{color:'black'}} className='my-3'/></a>,
         <a key={1} href="https://github.com/HodaRoushdy"><FaGithub style={{color:'black'}} className='my-3'/></a>,
-        <a key={2} href='/Huda-Roushdy.pdf' target="_blank" download="Huda-Roushdy"><FaDownload style={{color:'black'}} /></a>].map((text, index) => (
+        <a key={2} href='Huda CV.pdf' target="_blank" download="Huda-Roushdy"><FaDownload style={{color:'black'}} /></a>].map((text, index) => (
         <ListItem key={index} disablePadding>
             <ListItemButton>
                 <ListItemText primary={text} />

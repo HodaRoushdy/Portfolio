@@ -113,7 +113,7 @@ return(
             <p>Passionate and Experienced Web Developer adept in all stages of advanced web development. Knowledgeable in user interface, testing, and debugging processes. Bringing forth expertise in design, installation, testing and maintenance of web systems. Equipped with a diverse and promising skill-set. Proficient in an assortment of technologies, including HTML, CSS, JavaScript, ReactJS, TypeScript, Node.js, MySQL, and Mongo DB. Able to effectively self-manage during independent projects, as well as collaborate in a team setting.</p>
             <p>
             Visit my <a href="https://www.linkedin.com/in/huda-roushdy-87362a228/">LinkedIn</a> profile for more details. Also you can checkout my cv on this 
-            <a href='/Huda-Roushdy.pdf' download="Huda-Roushdy.pdf">CV</a>,
+            <a href='/Huda CV.pdf' download="Huda CV.pdf">CV</a>,
             or feel free to give a peek on some of my projects <a href="https://github.com/HodaRoushdy">GitHub</a></p>
         </div>
 </div>
