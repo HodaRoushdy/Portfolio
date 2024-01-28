@@ -5,7 +5,8 @@
 }
 .navaya{
     background-color: #625750;
+    border: 1px solid  #ada397;
     height: 100vh;
     display: flex;
-    border: 1px solid  #ada397;
+    
 }

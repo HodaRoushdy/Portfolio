@@ -1,41 +1,60 @@
 {
     "portfolio":[
         {
+            "cover":"../data/images/coligo-platform.png",
+            "title":"Coligo Platform",
+            "description":"react application using react, redux, unit test, MUI and i18n",
+            "url":"https://coligo-platform.vercel.app/dashboard"
+        },
+        {
+            "cover":"../data/images/product-builder.png",
+            "title":"Product Builder",
+            "description":"react application using react, headless ui and tailwindcss",
+            "url":"https://product-builder-eta.vercel.app/"
+        },
+        {
+        "cover":"../data/images/wedding-company.png",
+        "title":"wedding-company",
+        "description":"responsive UI design using html , css ,bootstrap and javascript",
+        "url":"https://wedding-company.vercel.app/"
+    },
+        {
             "cover":"../data/images/the cappa.png",
             "title":"the cappa",
             "description":"responsive UI design using html , css ,bootstrap and javascript",
             "url":"https://the-cappa-eight.vercel.app/"
-        },{
-        "cover":"../data/images/the cappa.png",
+        },
+        {
+        "cover":"../data/images/tic-tac-toe.png",
         "title":"tic tac toe",
         "description":"tic-tac-toe game using Nextjs",
         "url":"https://tic-tac-toe-gilt-three.vercel.app/"
-    } ,{
-        "cover":"../data/images/the cappa.png",
+    },
+    {
+        "cover":"../data/images/angular-task.png",
         "title":"Dashboard",
         "description":"frontend website using Angular and figma",
         "url":"https://angular-task-olive.vercel.app/"
-    },{
-        "cover":"../data/images/the cappa.png",
+    },
+    {
+        "cover":"../data/images/fokir.png",
         "title":"fokir",
         "description":"responsive UI design using html , css ,bootstrap and javascript",
         "url":"https://fokir-ten.vercel.app/"
-    },{
-        "cover":"../data/images/the cappa.png",
-        "title":"wedding-company",
-        "description":"responsive UI design using html , css ,bootstrap and javascript",
-        "url":"https://wedding-company.vercel.app/"
-    },{
-        "cover":"../data/images/the cappa.png",
+    },
+    {
+        "cover":"../data/images/bakery.png",
         "title":"bakery",
         "description":"responsive UI design using html , css ,bootstrap and javascript",
         "url":"https://bakery-jade.vercel.app/"
-    },{
+    },
+    {
         "cover":"../data/images/monkey-pox.png",
         "title":"monkey Pox detector",
         "description":"reactJs application to detect monkey pox disease",
         "url":"https://monkey-pox-detector.vercel.app/"
-    },{
+    },
+    {
         "cover":"../data/images/Todo-List.png",
         "title":"todoList",
         "description":"todo list application using reactJs",
